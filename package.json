@@ -2,10 +2,11 @@
   "name": "test",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "build": "npm run rimraf -- dist && webpack",
     "server": "http-server . -p 9000",
     "prestart": "npm run build",
-    "start": "npm run server"
+    "start": "npm run server",
+    "rimraf": "rimraf"
   },
   "dependencies": {
     "@angular/animations": "4.3.5",
@@ -29,6 +30,7 @@
     "node-sass": "^4.5.3",
     "performance-now": "^2.1.0",
     "raw-loader": "^0.5.1",
+    "rimraf": "~2.6.1",
     "sass-loader": "^6.0.6",
     "typescript": "2.4.2",
     "webpack": "^3.5.5"
