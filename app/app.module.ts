@@ -19,7 +19,7 @@ export class HomeView {}
     BrowserModule,
     RouterModule.forRoot([
       {path: 'lazy', loadChildren: './lazy.module#LazyModule'},
-      {path: 'admin', loadChildren: './+admin/admin.module#AdminModule'},
+      {path: 'admin', loadChildren: './+admin#AdminModule'},
       {path: '', component: HomeView}
     ])
   ],
