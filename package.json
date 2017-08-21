@@ -28,6 +28,7 @@
     "angular2-template-loader": "^0.6.2",
     "http-server": "^0.10.0",
     "node-sass": "^4.5.3",
+    "optimize-js-plugin": "0.0.4",
     "performance-now": "^2.1.0",
     "raw-loader": "^0.5.1",
     "rimraf": "~2.6.1",
